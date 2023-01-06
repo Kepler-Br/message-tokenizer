@@ -1,6 +1,6 @@
 from abc import abstractmethod, ABC
 
-from tokens import MessageBodyToken, ReplyToToken, Token, FromToken, MessageIdToken
+from .tokens import MessageBodyToken, ReplyToToken, Token, FromToken, MessageIdToken
 
 
 class ParseState(ABC):

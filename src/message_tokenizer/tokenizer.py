@@ -4,9 +4,9 @@
 # TEXT
 from typing import Optional
 
-from state import MessageBodyParseState, MessageIdParseState, FromParseState, ReplyToParseState, \
+from .state import MessageBodyParseState, MessageIdParseState, FromParseState, ReplyToParseState, \
     ParseState
-from tokens import Token, MessageIdToken, FromToken, ReplyToToken
+from .tokens import Token, MessageIdToken, FromToken, ReplyToToken
 
 
 def data_to_tokenized_text(message_id: int, text: str, username: str, reply_to_message: Optional[int]) -> str:
