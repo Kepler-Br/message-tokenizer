@@ -1,7 +1,3 @@
-# ----- MESSAGE_ID
-# --- FROM
-# >> REPLY_TO
-# TEXT
 from typing import Optional
 
 from .state import MessageBodyParseState, MessageIdParseState, FromParseState, ReplyToParseState, \
